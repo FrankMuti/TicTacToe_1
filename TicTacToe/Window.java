@@ -13,6 +13,7 @@ import ArtificialIntelligence.*;
 
 public class Window extends JFrame {
 
+    private static final long serialVersionUID = 1L;
     private static final int WIDTH = 600;
     private static final int HEIGHT = 600;
 
@@ -126,6 +127,8 @@ public class Window extends JFrame {
      * Used for drawing Tic Tac Toe to the screen
      */
     private class Panel extends JPanel {
+        private static final long serialVersionUID = 1L;
+
         @Override
         protected void paintComponent(Graphics g){
             super.paintComponent(g);
